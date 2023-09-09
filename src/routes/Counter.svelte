@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { spring } from 'svelte/motion';
+    import TypePicker from './TypePicker.svelte';
 
 	let count = 0;
 
@@ -33,6 +34,8 @@
 		</svg>
 	</button>
 </div>
+
+<TypePicker />
 
 <style>
 	.counter {
