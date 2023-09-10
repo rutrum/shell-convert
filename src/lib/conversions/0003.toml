@@ -1,0 +1,5 @@
+from = "Markdown"
+to = "Portable Document Format"
+description = "Convert from github flavored markdown to a pdf through latex."
+code = "pandoc input.md -f gfm -t tex -o output.pdf"
+dependencies = ["pandoc", "pdflatex"]

@@ -1,0 +1,5 @@
+from = "LaTeX"
+to = "Markdown"
+description = "From LaTeX to markdown."
+code = "pandoc -s example4.tex -o example5.text"
+dependencies = ["pandoc", "pdflatex"]

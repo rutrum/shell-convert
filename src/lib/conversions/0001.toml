@@ -1,0 +1,5 @@
+from = "Plain Text"
+to = "Hypertext Markup Language"
+description = "Convert from github flavored markdown to a pdf through latex."
+code = "pandoc MANUAL.txt -o example1.html"
+dependencies = ["pandoc", "pdflatex"]

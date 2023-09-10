@@ -1,0 +1,44 @@
+[[filetype]]
+exts = ["docx"]
+name = "Microsoft Office Word Document"
+description = "A DOCX file is a document created by Microsoft Word or exported by another word processing program, such as OpenOffice Writer or Apple Pages. It contains formatted text and may also include images, tables, charts, and other document elements. DOCX files are widely used in home, academic, and business environments for letters, resumes, invitations, newsletters, and other documents."
+
+[[filetype]]
+exts = ["epub"]
+name = "Electronic Publication"
+description = "An EPUB file is a digital book (eBook) saved in the open Electronic Publication (EPUB) format, a standard digital publication format that publishers and consumers use to distribute eBooks. Many users encounter EPUB files when downloading eBooks (such as books, magazines, scientific publications, etc.). You can open an EPUB file with eReader apps, such as Calibre and Apple Books, and devices."
+
+[[filetype]]
+exts = ["html"]
+name = "Hypertext Markup Language"
+description = "An HTML file contains Hypertext Markup Language (HTML) that formats the structure of a webpage. It is stored in a standard text format and contains tags that define the page layout and content of the webpage, including the text, tables, images, and hyperlinks displayed on the webpage. HTML files are widely used online and displayed in web browsers."
+
+[[filetype]]
+exts = ["ipynb"]
+name = "Jupyter Notebook"
+description = "An IPYNB file is a notebook document created by Jupyter Notebook, an interactive computational environment that helps scientists manipulate and analyze data using Python. It contains all the content from a Jupyter Notebook web application session, including computation inputs and outputs, mathematical functions, images, and explanatory text. IPYNB files can be exported to the .HTML, .PDF, reStructuredText, and LaTeX formats."
+
+[[filetype]]
+exts = ["tex", "latex"]
+name = "LaTeX"
+description = "A TEX file is a source document prepared by LaTeX, a high-quality typesetting system. It may include text, symbols, mathematical expressions, and graphics. Academic and professional users in computer science, electrical engineering, statistics, economics, and physics often utilize TEX files when typesetting articles, books, and other publications."
+
+[[filetype]]
+exts = ["md"]
+name = "Markdown"
+description = "An MD file is a text file created using one of several possible dialects of the Markdown language. It is saved in plain text format but includes inline symbols that define how to format the text (e.g. bold, indentations, headers, table formatting). MD files are designed for authoring plain text documentation that can be easily converted to HTML."
+
+[[filetype]]
+exts = ["pdf"]
+name = "Portable Document Format"
+description = "A PDF file is a multi-platform document created by Adobe Acrobat or another PDF application. The PDF format is commonly used for saving documents and publications in a standard format that can be viewed on multiple platforms. In many cases, PDF files are created from existing documents instead of from scratch."
+
+[[filetype]]
+exts = ["rtf"]
+name = "Rich Text Format"
+description = "An RTF file is a text document that supports font styling known as \"rich text.\" Examples include bold, italicized, and underlined text, as well as different typefaces and font sizes. Rich text files also support page formatting options, such as custom line spacing, tab width, and document margins. Modern versions of the RTF format can also contain images, such as .JPG and .PNG files."
+
+[[filetype]]
+exts = ["txt"]
+name = "Plain Text"
+description = "A TXT file is a standard text document that contains plain text. It can be opened and edited in any text-editing or word-processing program. TXT files are most often created by Microsoft Notepad and Apple TextEdit, which are basic text editors that come bundled with Windows and macOS, respectively."
