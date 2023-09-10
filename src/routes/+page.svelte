@@ -1,5 +1,8 @@
-<script>
-	import Counter from './Counter.svelte';
+<script lang="ts">
+	import type { Conversion } from '../models/conversion'
+
+	export let data:  {conversions:Conversion[]};
+
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -18,14 +21,27 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+	<!-- <div>{JSON.stringify(data)}</div> -->
 
-	<Counter />
+	<ul>
+		{#each data.conversions as c}
+			<li><h2>{c.from} ⇨ {c.to}</h2>
+				<p>{c.description}</p>
+				<code>{c.code}</code>
+				<h3>Dependencies</h3>
+				<ul>
+					{#each c.dependencies as d}
+						<li>{d}</li>
+					{/each}
+				</ul>
+			</li>
+
+			{:else}
+			<h3>Failure to load File Types</h3>
+		{/each}
+		</ul>
 </section>
 
 <style>
